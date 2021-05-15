@@ -12,9 +12,9 @@
                 <img
                   class="logo"
                   alt="Cute puppy"
-                  src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fimages1.fanpop.com%2Fimages%2Fphotos%2F1900000%2FPuppy-3-dogs-1993798-1024-768.jpg&f=1&nofb=1"
+                  src="https://www.gravatar.com/avatar/6e8eee2b97fdc6f6766321d50fac08df"
                 />
-                <div class="product-name">Microfrontends</div>
+                <div class="product-name">doggy</div>
               </div>
             </a>
           </li>
@@ -35,7 +35,7 @@
               to="/rate-doggos"
               class="nav-link"
               active-class="active-nav-link"
-              >Rate some doggos</router-link
+              >Become wild</router-link
             >
           </li>
         </ul>
