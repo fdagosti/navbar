@@ -25,7 +25,7 @@
               to="/view-doggos"
               class="nav-link"
               active-class="active-nav-link"
-              >View your doggos</router-link
+              >Veuillez regarder vos chiens</router-link
             >
           </li>
         </ul>
@@ -35,7 +35,7 @@
               to="/rate-doggos"
               class="nav-link"
               active-class="active-nav-link"
-              >Ceci est un test</router-link
+              >Ceci est un autre test</router-link
             >
           </li>
         </ul>
