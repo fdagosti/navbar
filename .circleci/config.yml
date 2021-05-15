@@ -67,7 +67,7 @@ jobs:
             gsutil cp -rZ dist gs://$BUCKET_NAME/$CIRCLE_PROJECT_REPONAME/$CIRCLE_SHA1
             echo "Updating import map"
             echo '{ "service":"@vue-mf/'"$CIRCLE_PROJECT_REPONAME"'","url":"https://'"$CF_PUBLIC_URL"'/'"$CIRCLE_PROJECT_REPONAME"'/'"$CIRCLE_SHA1"'/js/app.js" }'
-            curl -u $DEPLOYER_USERNAME:$DEPLOYER_PASSWORD -d '{ "service":"@vue-mf/'"$CIRCLE_PROJECT_REPONAME"'","url":"https://'"$CF_PUBLIC_URL"'/'"$CIRCLE_PROJECT_REPONAME"'/'"$CIRCLE_SHA1"'/js/app.js" }' -X PATCH http://$DEPLOYER_HOST/services\?env=$DEPLOYER_ENV -H "Accept:application/json" -H "Content-Type:application/json" --fail --insecure -i
+            curl -u $DEPLOYER_USERNAME:$DEPLOYER_PASSWORD -d '{ "service":"@vue-mf/'"$CIRCLE_PROJECT_REPONAME"'","url":"https://'"$CF_PUBLIC_URL"'/'"$CIRCLE_PROJECT_REPONAME"'/'"$CIRCLE_SHA1"'/js/app.js" }' -X PATCH https://$DEPLOYER_HOST/services\?env=$DEPLOYER_ENV -H "Accept:application/json" -H "Content-Type:application/json" --fail --insecure -i
 workflows:
   version: 2
   build_and_deploy:
