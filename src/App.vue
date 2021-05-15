@@ -25,7 +25,7 @@
               to="/view-doggos"
               class="nav-link"
               active-class="active-nav-link"
-              >Veuillez regarder vos chiens</router-link
+              >Veuillez bien regarder vos chiens</router-link
             >
           </li>
         </ul>
