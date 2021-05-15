@@ -35,7 +35,7 @@
               to="/rate-doggos"
               class="nav-link"
               active-class="active-nav-link"
-              >Become wild</router-link
+              >Ceci est un test</router-link
             >
           </li>
         </ul>
